@@ -1,3 +1,10 @@
+// 모듈 가져오기
+import { mainHeader } from "./header.js";
+import { mainFooter } from "./footer.js";
+
+mainHeader();
+mainFooter();
+
 /* 
 window에 스크롤이 생기면 할일
   그 스크롤양이 0보다 크면 body에 active 추가
