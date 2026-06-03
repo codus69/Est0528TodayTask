@@ -44,18 +44,15 @@ const portfolioSwiper = new Swiper(".portfolio-swiper", {
   loop: true,
   slidesPerView: 1,
 
-  // ⭐ 클릭 이벤트가 다른 부모 CSS에 씹히는 걸 방지하는 핵심 옵션들
   observer: true,
   observeParents: true,
   watchSlidesProgress: true,
 
-  // 내 화살표 버튼 연결
   navigation: {
     nextEl: ".portfolio-swiper .button.next",
     prevEl: ".portfolio-swiper .button.prev",
   },
 
-  // 하단 점 페이저 연결
   pagination: {
     el: ".portfolio-swiper .swiper-pagination",
     clickable: true,
