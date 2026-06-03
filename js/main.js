@@ -65,7 +65,7 @@ prevBtn.addEventListener("click", () => {
 });
 */
 
-// 1. 후기 슬라이드
+// 후기 슬라이드
 const reviewSwiper = new Swiper(".slidewrapper", {
   wrapperClass: "slidecontainer",
   slideClass: "slidecontainer > li",
